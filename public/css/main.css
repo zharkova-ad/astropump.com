@@ -2,23 +2,30 @@
     background-image: url(/public/img/upper-background.png);
     background-size: 100% auto;
     background-repeat: no-repeat;
-    background-position: center;
     color: white;
+    width: -webkit-fill-available;
+    height: -webkit-fill-available;
 }
 
 .logo {
     width: 20%;
     height: auto;
     display: block;
-    margin: 0 auto 0 auto;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto;
+    margin-top: 5em;
+    position: absolute;
 }
 
 .menu {
-    margin:auto;
-    margin-left:1em;
-    margin-right:1em;
-    margin-top:1em;
-    margin-bottom:1em;
+    position: absolute;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto;
+    margin-top: 40em;
     text-align: center;
 }
 
