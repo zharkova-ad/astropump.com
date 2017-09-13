@@ -3,7 +3,6 @@
     background-size: 100% auto;
     background-repeat: no-repeat;
     width: -webkit-fill-available;
-    height: -webkit-fill-available;
     position: absolute;
     font-family: "Times New Roman", Georgia, Serif;
 }
@@ -34,8 +33,6 @@
 }
 
 .how-it-works {
-    position: absolute;
-    display: inline-block;
     text-align: center;
     color: #232A4D;
 }
@@ -51,3 +48,33 @@
     margin-top: 5em;
     position: absolute;
 }
+
+.first-header {
+    position: relative;
+    padding: 0;
+    font-size: 3vw;
+}
+
+li:first-child {
+    font-size: 10vw;
+    margin-top: 2em;
+    padding-top: 1vw;
+}
+
+li:last-child {
+    font-size: 2vw;
+    margin-top: 2vw;
+    display: inline-block;
+    width: 30%; 
+    height: 1.2vw; 
+    border-bottom: 1px solid black; 
+    text-align: center
+}
+
+span {
+    background-color: white;
+    padding: 0 2vw;
+}
+
+
+
