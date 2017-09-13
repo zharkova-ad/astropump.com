@@ -1,3 +1,27 @@
-.landing {
-    background: orange;
+.header {
+    background-image: url(/public/img/upper-background.png);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+}
+
+.logo {
+    width: 20%;
+    height: auto;
+    display: block;
+    margin: 0 auto 0 auto;
+}
+
+.menu {
+    margin:auto;
+    margin-left:1em;
+    margin-right:1em;
+    margin-top:1em;
+    margin-bottom:1em;
+    text-align: center;
+}
+
+.how-it-works {
+    position: inherit;
 }
