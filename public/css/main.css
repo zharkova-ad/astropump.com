@@ -38,15 +38,9 @@
 }
 
 .handshake {
-    width: 20%;
-    height: auto;
-    display: block;
-    left: 0; 
-    right: 0; 
-    margin-left: auto; 
-    margin-right: auto;
-    margin-top: 5em;
+    width: 30%;
     position: absolute;
+    transform: rotate(-40deg);
 }
 
 .first-header {
@@ -55,13 +49,13 @@
     font-size: 3vw;
 }
 
-li:first-child {
+.first-header li:first-child {
     font-size: 10vw;
     margin-top: 2em;
     padding-top: 1vw;
 }
 
-li:last-child {
+.first-header li:last-child {
     font-size: 2vw;
     margin-top: 2vw;
     display: inline-block;
@@ -76,5 +70,146 @@ span {
     padding: 0 2vw;
 }
 
+.expl-1 {
+    display: block;
+    font-size: 2vw;
+    padding-top: 2vw;
+    padding-left: 3vw;
+    line-height: 1vw;
+    color: #232A4D;
+    position: relative;
+}
 
+.graph-1 {
+    position: absolute;
+    width: 73%;
+    right: 0;
+}
 
+.arrow-up {
+    position: absolute;
+    width: 13%;
+    right: 20vw;
+    margin-top: 4vw;
+}
+
+.graph-1-expl {
+    position: absolute;
+    right: 10vw;
+    margin-top: 5vw;
+    text-align: center;
+    font-size: 2vw;
+    line-height: 1vw;
+    color: #232A4D;
+}
+
+.our-goal {
+    text-align: center;
+    color: #232A4D;
+}
+.second-header {
+    position: relative;
+    padding: 0;
+    font-size: 3vw;
+}
+
+.second-header li:first-child {
+    font-size: 10vw;
+    margin-top: 4.5em;
+    padding-top: 1vw;
+}
+
+.men {
+    width: 15%;
+    position: absolute;
+    margin-left: 9vw;
+    margin-top: 3vw;
+}
+
+.team {
+    position: absolute;
+    right: 24vw;
+    font-size: 2vw;
+    line-height: 1vw;
+    color: #232A4D;
+    margin-top: 2vw;
+}
+
+.speaker {
+    width: 14%;
+    position: absolute;
+    margin-left: 9vw;
+    margin-top: 19vw;
+}
+
+.share {
+    position: relative;
+    left: 25.5vw;
+    font-size: 2vw;
+    line-height: 1vw;
+    color: #232A4D;
+    margin-top: 26vw;
+}
+
+.money {
+    opacity: 0.2;
+    transform: rotate(-20deg);
+    width: 30%;
+    position: relative;
+    float: right;
+    top: 8vw;
+    right: 18vw;
+}
+
+.earn {
+    position: relative;
+    left: 35vw;
+    font-size: 2vw;
+    line-height: 1vw;
+    color: #232A4D;
+    margin-top: 20vw;
+}
+
+.amount {
+    text-align: center;
+    color: white;
+}
+
+.third-header {
+    position: relative;
+    padding: 0;
+    font-size: 3vw;
+}
+
+.third-header li:first-child {
+    font-size: 10vw;
+    margin-top: 1.5em;
+    padding-top: 1vw;
+}
+
+.middle {
+    background-image: url(/public/img/middle-background.png);
+    background-size: 130% auto;
+    background-repeat: no-repeat;
+    width: -webkit-fill-available;
+    position: absolute;
+}
+
+.no-limit {
+    color: white;
+    font-size: 2vw;
+    line-height: 1vw;
+    position: relative;
+    top: 3vw;
+    left: 9vw;
+}
+
+.but {
+    color: white;
+    font-size: 2vw;
+    line-height: 1vw;
+    position: relative;
+    top: 6vw;
+    left: 9vw;
+    margin-bottom: 30vw;
+}
